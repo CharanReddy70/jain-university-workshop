@@ -149,8 +149,3 @@ Amazon Bedrock AgentCore) or by tag `student`. Model usage through inference pro
 - Measuring quality with LLM-as-a-judge evaluators, continuously and on demand.
 - Recognising prompt injection and enforcing business rules with Cedar policies outside the model.
 - Cleaning up cloud resources and reasoning about cost: a habit every employer notices.
-
-## Credits
-
-Adapted from the structure and style of the open-source *strands-agents-workshop* (notebooks alternate short explanations with code and end with
-"Your turn"; scripts are short live-coding demos). Rewritten for Amazon Bedrock AgentCore as of November 2026.
