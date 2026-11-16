@@ -149,3 +149,22 @@ Amazon Bedrock AgentCore) or by tag `student`. Model usage through inference pro
 - Measuring quality with LLM-as-a-judge evaluators, continuously and on demand.
 - Recognising prompt injection and enforcing business rules with Cedar policies outside the model.
 - Cleaning up cloud resources and reasoning about cost: a habit every employer notices.
+
+---
+
+## Resources & Links
+
+- 📺 [YouTube: TechWithYeshwanth](https://www.youtube.com/@TechWithYeshwanth/videos)
+- 💻 [GitHub: github.com/yeshwanthlm](https://github.com/yeshwanthlm)
+- ✍️ [Blog: dev.to/yeshwanthlm](https://dev.to/yeshwanthlm/)
+- 📸 [Instagram: @techwithyeshwanth](https://www.instagram.com/techwithyeshwanth/)
+- 🔗 [LinkedIn: Yeshwanth L M](https://www.linkedin.com/in/yeshwanth-l-m/)
+- 📅 [Book a 1:1](https://topmate.io/techwithyeshwanth)
+
+---
+
+## Feedback
+
+Enjoyed the workshop? Please share your feedback — it helps a lot!
+
+👉 [**Submit Feedback**](https://forms.gle/Wzz4S6miXxMEuueUA)
