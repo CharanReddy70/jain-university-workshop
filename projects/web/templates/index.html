@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CampusMate - Student Assistant</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <p class="branding">{{ branding }}</p>
+    <h1>CampusMate</h1>
+    <p class="sub">Your AI assistant for courses, campus rules, attendance and leave. All data is fictional.</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <label for="student">Chatting as</label>
+      <select id="student">
+        {% for s in students %}
+        <option value="{{ s.id }}">{{ s.id }} - {{ s.name }} (Sem {{ s.semester }})</option>
+        {% endfor %}
+      </select>
+      <button id="new-session" type="button" title="Start a fresh conversation. Long-term memory stays.">New session</button>
+    </section>
+
+    <section id="chat" aria-live="polite">
+      <div class="msg bot">Hi! Ask me about courses, the attendance rule, your exam eligibility or filing leave.</div>
+    </section>
+
+    <form id="composer">
+      <input id="message" autocomplete="off" placeholder="e.g. Am I eligible for my semester-end exams?" required>
+      <button type="submit">Send</button>
+    </form>
+
+    <details class="debug">
+      <summary>Behind the scenes</summary>
+      <p>Agent: <code id="agent-arn">{{ agent_arn or "NOT CONFIGURED - run bash projects/deploy.sh" }}</code></p>
+      <p>Session: <code id="session-id">(starts with your first message)</code></p>
+      <pre id="last-tools">No tool calls yet.</pre>
+    </details>
+  </main>
+
+  <footer>Workshop demo app. No login, no real student data. Deployed by: {{ student_suffix }}</footer>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

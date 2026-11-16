@@ -1,0 +1,85 @@
+{
+  "_note": "Fictional demo data for workshop use. Replace with real data only after review.",
+  "events": [
+    {
+      "event_id": "EVT-01",
+      "title": "CampusMate Cloud Build Day",
+      "type": "workshop",
+      "date": "2026-11-20",
+      "venue": "Lab Block, Room 204 (fictional)",
+      "registration_cap": 60,
+      "registered": 41,
+      "description": "Hands-on session on deploying a small web app to the cloud."
+    },
+    {
+      "event_id": "EVT-02",
+      "title": "Open Source Contribution Sprint",
+      "type": "club meet",
+      "date": "2026-11-25",
+      "venue": "Seminar Hall A (fictional)",
+      "registration_cap": 40,
+      "registered": 40,
+      "description": "Pick a beginner-friendly issue and send your first pull request."
+    },
+    {
+      "event_id": "EVT-03",
+      "title": "HackAIDD 24-hour Hackathon",
+      "type": "hackathon",
+      "date": "2026-12-05",
+      "venue": "Main Auditorium (fictional)",
+      "registration_cap": 120,
+      "registered": 87,
+      "description": "Build something useful with AI agents in 24 hours. Teams of 2-4."
+    },
+    {
+      "event_id": "EVT-04",
+      "title": "Linux Command Line Treasure Hunt",
+      "type": "club meet",
+      "date": "2026-11-18",
+      "venue": "Lab Block, Room 101 (fictional)",
+      "registration_cap": 50,
+      "registered": 22,
+      "description": "Solve clues using grep, find and pipes."
+    },
+    {
+      "event_id": "EVT-05",
+      "title": "Containers 101 Study Circle",
+      "type": "club meet",
+      "date": "2026-12-01",
+      "venue": "Library Discussion Room (fictional)",
+      "registration_cap": 25,
+      "registered": 19,
+      "description": "Peer-led session on Dockerfiles and images."
+    },
+    {
+      "event_id": "EVT-06",
+      "title": "GenAI Ideathon",
+      "type": "hackathon",
+      "date": "2026-12-12",
+      "venue": "Innovation Centre (fictional)",
+      "registration_cap": 80,
+      "registered": 35,
+      "description": "Pitch a responsible generative AI idea in 5 minutes."
+    },
+    {
+      "event_id": "EVT-07",
+      "title": "CI/CD Pipeline Clinic",
+      "type": "workshop",
+      "date": "2026-12-09",
+      "venue": "Lab Block, Room 204 (fictional)",
+      "registration_cap": 45,
+      "registered": 45,
+      "description": "Bring your repo; leave with a working pipeline."
+    },
+    {
+      "event_id": "EVT-08",
+      "title": "Networks Quiz Night",
+      "type": "club meet",
+      "date": "2026-12-16",
+      "venue": "Seminar Hall B (fictional)",
+      "registration_cap": 100,
+      "registered": 12,
+      "description": "Fun quiz on DNS, HTTP and subnetting."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_note": "Fictional demo data for workshop use. Replace with real data only after review.",
+  "_disclaimer": "Illustrative placeholder rules for a workshop. Not the policy of any real university.",
+  "policies": {
+    "attendance": {
+      "title": "Attendance",
+      "rules": [
+        "Minimum attendance is 75% in each course (placeholder value; a common norm in Indian universities).",
+        "Students below 75% in a course are not eligible to write that course's semester-end exam.",
+        "Attendance between 65% and 74% may be condoned once per semester with a medical certificate, subject to approval by the Head of Department.",
+        "Attendance is updated in the portal every Friday."
+      ]
+    },
+    "internal_assessments": {
+      "title": "Internal assessments",
+      "rules": [
+        "There are two internal assessments (IA-1 and IA-2) per course, each out of 20 marks.",
+        "The better of the two plus assignments makes up the internal component shown in each course's assessment pattern.",
+        "A missed IA can be retaken only with a valid medical or official-duty letter, within 7 days."
+      ]
+    },
+    "semester_end_exams": {
+      "title": "Semester-end exams",
+      "rules": [
+        "Hall tickets are issued only to students who meet attendance and have no pending fees.",
+        "Students must report 20 minutes before the exam. Entry closes 15 minutes after the start.",
+        "Mobile phones and smart watches are not allowed in the exam hall."
+      ]
+    },
+    "fees": {
+      "title": "Fee deadlines",
+      "rules": [
+        "Semester tuition fee: Rs. 1,25,000 (fictional amount), due by the 15th day of the semester.",
+        "A late fee of Rs. 500 per week applies after the due date.",
+        "Fees pending beyond 30 days block the hall ticket for semester-end exams.",
+        "Payment receipts can be downloaded from the student portal."
+      ]
+    },
+    "leave": {
+      "title": "Leave applications",
+      "rules": [
+        "CampusMate can file a leave request of up to 3 days on its own.",
+        "Requests longer than 3 days need approval from the class mentor and must be submitted through the department office.",
+        "A student may take at most 6 days of leave per semester through CampusMate.",
+        "Leave does not count as attendance. Approved leave days are still absences in the attendance register."
+      ]
+    },
+    "re_evaluation": {
+      "title": "Re-evaluation",
+      "rules": [
+        "Apply for re-evaluation within 7 days of results being published.",
+        "Fee: Rs. 750 per course (fictional amount).",
+        "If marks change by more than 10%, the re-evaluation fee is refunded."
+      ]
+    },
+    "library": {
+      "title": "Library",
+      "rules": [
+        "Students can borrow up to 4 books for 14 days.",
+        "A fine of Rs. 5 per day per book applies after the due date.",
+        "Books can be renewed once online if nobody else has reserved them."
+      ]
+    },
+    "hackathons": {
+      "title": "Hackathon participation",
+      "rules": [
+        "Students may take part in up to 2 external hackathons per semester with on-duty (OD) attendance.",
+        "Apply for OD at least 3 working days before the event with the registration proof.",
+        "Teams must have a faculty mentor for any hackathon that uses the college name."
+      ]
+    }
+  }
+}

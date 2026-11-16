@@ -1,0 +1,125 @@
+{
+  "_note": "Fictional demo data for workshop use. Replace with real data only after review.",
+  "courses": [
+    {
+      "code": "AIDD201",
+      "title": "Linux and Shell Scripting",
+      "credits": 3,
+      "semester": 2,
+      "description": "Files, permissions, processes, pipes and writing small bash scripts to automate everyday tasks.",
+      "assessment": {
+        "internal_assessments": 40,
+        "lab_record": 10,
+        "semester_end_exam": 50
+      }
+    },
+    {
+      "code": "AIDD202",
+      "title": "Git and Version Control",
+      "credits": 2,
+      "semester": 2,
+      "description": "Commits, branches, merges, pull requests and working in a team repository without stepping on each other's toes.",
+      "assessment": {
+        "internal_assessments": 30,
+        "mini_project": 20,
+        "semester_end_exam": 50
+      }
+    },
+    {
+      "code": "AIDD203",
+      "title": "Python Programming",
+      "credits": 4,
+      "semester": 2,
+      "description": "Core Python: data types, functions, files, modules, error handling and a little object-oriented programming.",
+      "assessment": {
+        "internal_assessments": 40,
+        "lab_record": 10,
+        "semester_end_exam": 50
+      }
+    },
+    {
+      "code": "AIDD204",
+      "title": "Data Structures",
+      "credits": 4,
+      "semester": 2,
+      "description": "Arrays, linked lists, stacks, queues, trees, graphs and hashing, with time and space complexity.",
+      "assessment": {
+        "internal_assessments": 40,
+        "lab_record": 10,
+        "semester_end_exam": 50
+      }
+    },
+    {
+      "code": "AIDD205",
+      "title": "Computer Networks",
+      "credits": 3,
+      "semester": 2,
+      "description": "The OSI and TCP/IP models, IP addressing, DNS, HTTP and how a request travels from your laptop to a server.",
+      "assessment": {
+        "internal_assessments": 40,
+        "quiz": 10,
+        "semester_end_exam": 50
+      }
+    },
+    {
+      "code": "AIDD301",
+      "title": "Containers and Docker",
+      "credits": 3,
+      "semester": 3,
+      "description": "Images, containers, Dockerfiles, volumes and networking. Package an app so it runs the same everywhere.",
+      "assessment": {
+        "internal_assessments": 30,
+        "lab_record": 20,
+        "semester_end_exam": 50
+      }
+    },
+    {
+      "code": "AIDD302",
+      "title": "CI/CD Pipelines",
+      "credits": 3,
+      "semester": 3,
+      "description": "Continuous Integration and Continuous Delivery: automated builds, tests and deployments on every commit.",
+      "assessment": {
+        "internal_assessments": 30,
+        "mini_project": 20,
+        "semester_end_exam": 50
+      }
+    },
+    {
+      "code": "AIDD303",
+      "title": "Cloud Computing Fundamentals",
+      "credits": 4,
+      "semester": 3,
+      "description": "Regions, compute, storage, networking, identity and the shared responsibility model, with hands-on labs.",
+      "assessment": {
+        "internal_assessments": 40,
+        "lab_record": 10,
+        "semester_end_exam": 50
+      }
+    },
+    {
+      "code": "AIDD304",
+      "title": "Infrastructure as Code",
+      "credits": 3,
+      "semester": 3,
+      "description": "Describe servers and networks in code, review them like code and recreate whole environments with one command.",
+      "assessment": {
+        "internal_assessments": 30,
+        "mini_project": 20,
+        "semester_end_exam": 50
+      }
+    },
+    {
+      "code": "AIDD305",
+      "title": "Introduction to Generative AI",
+      "credits": 3,
+      "semester": 3,
+      "description": "Large language models, prompts, tokens, retrieval and AI agents, with a responsible-AI lens.",
+      "assessment": {
+        "internal_assessments": 30,
+        "mini_project": 20,
+        "semester_end_exam": 50
+      }
+    }
+  ]
+}

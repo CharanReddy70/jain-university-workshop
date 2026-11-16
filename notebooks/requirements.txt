@@ -1,0 +1,3 @@
+# Notebook dependencies are the same as the workshop root.
+# From the repo root:  pip install -r requirements.txt
+-r ../requirements.txt

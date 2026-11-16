@@ -1,0 +1,15 @@
+{
+  "_comment": "Example MCP client configuration (format used by many MCP clients, e.g. Claude Desktop / Kiro / Q CLI). Carried over from the original Strands workshop to illustrate local MCP servers in notebook 07. CampusMate itself uses AgentCore Gateway as a managed, remote MCP server instead.",
+  "mcpServers": {
+    "aws-documentation": {
+      "command": "uvx",
+      "args": ["awslabs.aws-documentation-mcp-server@latest"],
+      "env": {"FASTMCP_LOG_LEVEL": "ERROR"}
+    },
+    "campusmate-gateway": {
+      "_comment": "Connect any MCP client to YOUR CampusMate gateway through a local SigV4 proxy (AWS_IAM inbound auth). Replace the URL with config.get_resource('gateway_url').",
+      "command": "uvx",
+      "args": ["mcp-proxy-for-aws@latest", "https://campusmate-gw-<STUDENT_ID>-xxxxxxxxxx.gateway.bedrock-agentcore.us-east-1.amazonaws.com/mcp", "--service", "bedrock-agentcore", "--region", "us-east-1"]
+    }
+  }
+}

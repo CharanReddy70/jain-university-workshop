@@ -1,0 +1,16 @@
+[
+  {
+    "name": "submit_leave_request",
+    "description": "File a leave application for a student. CampusMate may file at most 3 days; longer leave needs mentor approval through the department office.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "student_id": {"type": "string", "description": "Student ID, for example AIDD-DEMO-001"},
+        "start_date": {"type": "string", "description": "First day of leave in YYYY-MM-DD format"},
+        "days": {"type": "integer", "description": "Number of leave days (whole days)"},
+        "reason": {"type": "string", "description": "Short reason for the leave"}
+      },
+      "required": ["student_id", "start_date", "days", "reason"]
+    }
+  }
+]

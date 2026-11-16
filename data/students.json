@@ -1,0 +1,217 @@
+{
+  "_note": "Fictional demo data for workshop use. Replace with real data only after review.",
+  "_edge_cases": {
+    "AIDD-DEMO-003": "74% in AIDD303 (just below the 75% minimum)",
+    "AIDD-DEMO-004": "exactly 75% in AIDD301 (just meets the minimum)",
+    "AIDD-DEMO-005": "fees pending",
+    "AIDD-DEMO-006": "2 leave days already used"
+  },
+  "students": [
+    {
+      "student_id": "AIDD-DEMO-001",
+      "name": "Aarav Sharma",
+      "semester": 3,
+      "attendance": {
+        "AIDD301": 88,
+        "AIDD302": 91,
+        "AIDD303": 85,
+        "AIDD304": 90,
+        "AIDD305": 93
+      },
+      "fee_status": "paid",
+      "leave_days_used": 0,
+      "leave_history": [],
+      "interests": [
+        "cloud",
+        "containers"
+      ]
+    },
+    {
+      "student_id": "AIDD-DEMO-002",
+      "name": "Diya Nair",
+      "semester": 2,
+      "attendance": {
+        "AIDD201": 92,
+        "AIDD202": 95,
+        "AIDD203": 89,
+        "AIDD204": 87,
+        "AIDD205": 90
+      },
+      "fee_status": "paid",
+      "leave_days_used": 1,
+      "leave_history": [
+        {
+          "from": "2026-09-14",
+          "days": 1,
+          "reason": "Family function"
+        }
+      ],
+      "interests": [
+        "python",
+        "data structures"
+      ]
+    },
+    {
+      "student_id": "AIDD-DEMO-003",
+      "name": "Rohan Kulkarni",
+      "semester": 3,
+      "attendance": {
+        "AIDD301": 80,
+        "AIDD302": 78,
+        "AIDD303": 74,
+        "AIDD304": 82,
+        "AIDD305": 79
+      },
+      "fee_status": "paid",
+      "leave_days_used": 0,
+      "leave_history": [],
+      "interests": [
+        "cloud",
+        "devops"
+      ]
+    },
+    {
+      "student_id": "AIDD-DEMO-004",
+      "name": "Ananya Reddy",
+      "semester": 3,
+      "attendance": {
+        "AIDD301": 75,
+        "AIDD302": 81,
+        "AIDD303": 84,
+        "AIDD304": 77,
+        "AIDD305": 86
+      },
+      "fee_status": "paid",
+      "leave_days_used": 0,
+      "leave_history": [],
+      "interests": [
+        "generative ai"
+      ]
+    },
+    {
+      "student_id": "AIDD-DEMO-005",
+      "name": "Kabir Singh",
+      "semester": 2,
+      "attendance": {
+        "AIDD201": 84,
+        "AIDD202": 86,
+        "AIDD203": 80,
+        "AIDD204": 83,
+        "AIDD205": 88
+      },
+      "fee_status": "pending",
+      "fee_pending_amount_inr": 125000,
+      "leave_days_used": 0,
+      "leave_history": [],
+      "interests": [
+        "networks",
+        "linux"
+      ]
+    },
+    {
+      "student_id": "AIDD-DEMO-006",
+      "name": "Meera Iyer",
+      "semester": 3,
+      "attendance": {
+        "AIDD301": 86,
+        "AIDD302": 83,
+        "AIDD303": 88,
+        "AIDD304": 85,
+        "AIDD305": 90
+      },
+      "fee_status": "paid",
+      "leave_days_used": 2,
+      "leave_history": [
+        {
+          "from": "2026-08-20",
+          "days": 2,
+          "reason": "Fever"
+        }
+      ],
+      "interests": [
+        "infrastructure as code"
+      ]
+    },
+    {
+      "student_id": "AIDD-DEMO-007",
+      "name": "Arjun Menon",
+      "semester": 2,
+      "attendance": {
+        "AIDD201": 70,
+        "AIDD202": 72,
+        "AIDD203": 68,
+        "AIDD204": 76,
+        "AIDD205": 71
+      },
+      "fee_status": "paid",
+      "leave_days_used": 0,
+      "leave_history": [],
+      "interests": [
+        "git",
+        "open source"
+      ]
+    },
+    {
+      "student_id": "AIDD-DEMO-008",
+      "name": "Sneha Patil",
+      "semester": 3,
+      "attendance": {
+        "AIDD301": 95,
+        "AIDD302": 97,
+        "AIDD303": 94,
+        "AIDD304": 96,
+        "AIDD305": 98
+      },
+      "fee_status": "paid",
+      "leave_days_used": 0,
+      "leave_history": [],
+      "interests": [
+        "hackathons",
+        "ci/cd"
+      ]
+    },
+    {
+      "student_id": "AIDD-DEMO-009",
+      "name": "Ishaan Gupta",
+      "semester": 2,
+      "attendance": {
+        "AIDD201": 82,
+        "AIDD202": 79,
+        "AIDD203": 85,
+        "AIDD204": 81,
+        "AIDD205": 77
+      },
+      "fee_status": "paid",
+      "leave_days_used": 3,
+      "leave_history": [
+        {
+          "from": "2026-08-05",
+          "days": 3,
+          "reason": "Sports meet"
+        }
+      ],
+      "interests": [
+        "python"
+      ]
+    },
+    {
+      "student_id": "AIDD-DEMO-010",
+      "name": "Priya Deshpande",
+      "semester": 3,
+      "attendance": {
+        "AIDD301": 89,
+        "AIDD302": 76,
+        "AIDD303": 92,
+        "AIDD304": 88,
+        "AIDD305": 80
+      },
+      "fee_status": "paid",
+      "leave_days_used": 0,
+      "leave_history": [],
+      "interests": [
+        "cloud",
+        "generative ai"
+      ]
+    }
+  ]
+}
