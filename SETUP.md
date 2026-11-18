@@ -34,7 +34,7 @@ python3.12 --version
 
 ## Step 2b: Install Node.js, the AgentCore CLI and uv
 
-From notebook 05 on, we deploy CampusMate with the official **AgentCore CLI** (`agentcore`). It needs **Node.js 20+** and **uv**
+In notebook 07, we deploy CampusMate with the official **AgentCore CLI** (`agentcore`). It needs **Node.js 20+** and **uv**
 (a fast Python package tool).
 
 **macOS**
@@ -111,8 +111,8 @@ max 16 characters. Write it down. In every lab notebook, the first code cell (**
 STUDENT_ID = "student01"
 ```
 Change it to your ID before running anything else. **Every AWS resource you create gets this ID in its name**, so 40+ students
-can share one account without clashing. Use the same ID in `projects/web/app.py` (Lab 8) and when you clean up at the end
-(`bash cleanup/cleanup.sh priya07`).
+can share one account without clashing. Use the same ID when you clean up at the end
+(the last cell of `notebooks/07-deploy-to-agentcore-runtime.ipynb`).
 
 ## Step 7: Run the setup check
 
@@ -136,7 +136,7 @@ Before Day 1, as the instructor, run once in the account and region:
 - `python scripts/check_setup.py`
 
 > Use a **separate sandbox account** for the workshop, set a budget alert, and remove the student users (or the group's policy) after the
-> workshop. Every student resource is named with their `STUDENT_ID`, so `bash cleanup/cleanup.sh <id>` removes exactly their things.
+> workshop. Every student resource is named with their `STUDENT_ID`, so the last cell of `notebooks/07-deploy-to-agentcore-runtime.ipynb` removes exactly their things.
 
 ---
 
@@ -158,9 +158,7 @@ Before Day 1, as the instructor, run once in the account and region:
 | `ThrottlingException: Too many requests` | 40 people sharing one account's quota | Wait 30 s and retry |
 | `ValidationException ... runtimeSessionId ... length` | Runtime session IDs need 33+ characters | Use `f"lab-{uuid.uuid4()}"` |
 | `Tool Execution Denied: Tool call not allowed due to policy enforcement` | The Cedar policy blocked the call | Expected for leave above 3 days. Otherwise check your policies are ACTIVE |
-| `OSError: [Errno 48] Address already in use` (port 5000/5050/8080) | Another app uses the port (AirPlay uses 5000 on Macs) | `PORT=8000 python projects/web/app.py` |
 | PowerShell: `running scripts is disabled on this system` | Execution policy blocks venv activation | `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` |
-| `bash: command not found` on Windows | No bash in PowerShell | Use **Git Bash** (comes with Git for Windows) for `cleanup.sh` |
 | `'agentcore' is not recognized` / `command not found: agentcore` | AgentCore CLI not installed or terminal not reopened | `npm install -g @aws/agentcore`, then open a new terminal and restart Jupyter |
 | `agentcore deploy` fails mentioning CDK or bootstrap | The account isn't CDK-bootstrapped | Instructor runs `cdk bootstrap aws://<ACCOUNT_ID>/us-east-1` once |
 | `SSL: CERTIFICATE_VERIFY_FAILED` on campus Wi-Fi | Network proxy intercepts HTTPS | Use a mobile hotspot, or ask IT for the proxy CA certificate |
