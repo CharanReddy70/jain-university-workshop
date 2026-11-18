@@ -62,7 +62,7 @@ source .venv/bin/activate              # Windows: .venv\Scripts\activate
 python scripts/check_setup.py          # every line should say PASS
 jupyter notebook notebooks/            # start with 01
 ```
-
+```
 README.md               you are here
 SETUP.md                pre-work for macOS and Windows (Python, AWS CLI, Node.js, AgentCore CLI, uv), troubleshooting
 requirements.txt        pinned, tested versions (Python 3.10+; tested on 3.12)
@@ -99,8 +99,3 @@ Amazon Bedrock AgentCore) or by tag `student`. Model usage through inference pro
 - Designing agent memory (short-term vs long-term, semantic vs summary) and handling asynchronous extraction.
 - Measuring quality with an LLM-as-a-judge and a small answer key.
 - Cleaning up cloud resources and reasoning about cost: a habit every employer notices.
-
-## Credits
-
-Adapted from the structure and style of the open-source *strands-agents-workshop* (notebooks alternate short explanations with code and end with
-"Your turn"; scripts are short live-coding demos). Rewritten for Amazon Bedrock AgentCore as of November 2026.
